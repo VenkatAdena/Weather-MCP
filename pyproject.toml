@@ -1,0 +1,10 @@
+[project]
+name = "global-weather-mcp-server"
+version = "0.1.0"
+description = "A Model Context Protocol server for US weather alerts and global forecasts."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.28.0",
+]
