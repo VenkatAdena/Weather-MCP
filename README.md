@@ -33,10 +33,10 @@ No API keys are required.
 
 ## Connect to Claude Desktop on Windows
 
-Open this Claude Desktop config file:
+For the Microsoft Store/package install of Claude Desktop, open this config file:
 
 ```text
-C:\Users\venka\AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\claude_desktop_config.json
+%LOCALAPPDATA%\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\claude_desktop_config.json
 ```
 
 Add only this server entry inside the `mcpServers` object:
@@ -48,7 +48,7 @@ Add only this server entry inside the `mcpServers` object:
       "command": "uv",
       "args": [
         "--directory",
-        "C:\\Users\\venka\\Downloads\\weather\\weather",
+        "C:\\path\\to\\weather-mcp",
         "run",
         "global_weather_mcp_server.py"
       ]
